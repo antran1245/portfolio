@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink, Collapse, Button} from 'reactstrap';
+import {Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, Collapse, Button} from 'reactstrap';
+import {NavLink} from 'react-router-dom';
 
 class NavbarHeader extends Component {
     constructor(props) {
@@ -25,13 +26,13 @@ class NavbarHeader extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav className="text-left" navbar>
                             <NavItem>
-                                <NavLink href="#"><span className="fa fa-home fa-lg"></span> Home</NavLink>
+                                <NavLink className="nav-link" to="/home"><span className="fa fa-home fa-lg"></span> Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#"><span className="fa fa-info fa-lg"></span> About Me</NavLink>
+                                <NavLink className="nav-link" to="/aboutme"><span className="fa fa-info fa-lg"></span> About Me</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#"><span className="fa fa-phone fa-lg"></span> Contact</NavLink>
+                                <NavLink className="nav-link" to="/contact"><span className="fa fa-phone fa-lg"></span> Contact</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
@@ -40,13 +41,16 @@ class NavbarHeader extends Component {
                 <div className="container d-none d-sm-block button_Navbar">
                     <div className="row">
                         <div className="col-sm-3 offset-sm-1">
-                            <Button color="primary" block>Home</Button>
+                            <NavLink className="nav-link" to="/home"> 
+                            <Button color="primary" block><span className="fa fa-home fa-lg"></span> Home</Button></NavLink>
                         </div>
                         <div className="col-sm-3 offset-sm-1">
-                            <Button color="primary" block>About Me</Button>
+                            <NavLink className="nav-link" to="/aboutme">
+                            <Button color="primary" block><span className="fa fa-info fa-lg"></span> About Me</Button></NavLink>
                         </div>
                         <div className="col-sm-3 offset-sm-1">
-                            <Button color="primary" block>Contact</Button>
+                            <NavLink className="nav-link" to="/contact"> 
+                            <Button color="primary" block><span className="fa fa-phone fa-lg"></span> Contact</Button></NavLink>
                         </div>
                     </div>
                 </div>

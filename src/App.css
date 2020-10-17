@@ -10,3 +10,23 @@
   right: 0;
   margin: 0 auto;
 }
+
+.background_image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.home {
+  background-image: url(./image/home.jpg);
+}
+
+.aboutme {
+  background-image: url(./image/aboutme.jpg);
+}
+
+.contact {
+  background-image: url(./image/contact.jpg);
+}
