@@ -3,20 +3,23 @@
 }
 
 .button_Navbar {
+  opacity: .8;
   position: absolute;
   z-index: 10;
   bottom: 10%;
   left: 0;
   right: 0;
-  margin: 0 auto;
 }
 
 .background_image {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
   position: relative;
-  height: 100vh;
 }
 
 .home {
@@ -29,4 +32,8 @@
 
 .contact {
   background-image: url(./image/contact.jpg);
+}
+
+.home_layout {
+  padding-top: 5vh;
 }

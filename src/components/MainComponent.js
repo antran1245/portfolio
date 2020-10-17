@@ -9,7 +9,6 @@ class Main extends Component {
     render() {
         return(
             <div>
-                <NavbarHeader />
                 <Switch>
                     <Route path='/home' component={() => <Home />} />
                     <Route exact path='/aboutme' component={() => <AboutMe/>} />
