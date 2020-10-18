@@ -4,11 +4,8 @@
 
 .button_Navbar {
   opacity: .8;
-  position: absolute;
+  position: relative;
   z-index: 10;
-  bottom: 10%;
-  left: 0;
-  right: 0;
 }
 
 .background_image {
@@ -35,5 +32,18 @@
 }
 
 .home_layout {
-  padding-top: 5vh;
+  color: rgb(255, 255, 255);
+  padding-top: 35vh;
+  padding-bottom: 5vh;
+  filter: brightness(1.75);
+}
+
+.aboutme_layout, .contact_layout {
+  padding-top: 10vh;
+}
+
+@media (max-width: 575.98px) {
+  .home_layout {
+    padding-top: 16vh;
+  }
 }
