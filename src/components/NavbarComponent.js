@@ -31,9 +31,6 @@ class NavbarHeader extends Component {
                             <NavItem>
                                 <NavLink className="nav-link" to="/aboutme"><span className="fa fa-info fa-lg"></span> About Me</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link" to="/contact"><span className="fa fa-phone fa-lg"></span> Contact</NavLink>
-                            </NavItem>
                         </Nav>
                     </Collapse>
                     </div>
@@ -44,13 +41,9 @@ class NavbarHeader extends Component {
                             <NavLink className="nav-link" to="/home"> 
                             <Button color="primary" block><span className="fa fa-home fa-lg"></span> Home</Button></NavLink>
                         </div>
-                        <div className="col-sm-3 offset-sm-1">
+                        <div className="col-sm-3 offset-sm-5">
                             <NavLink className="nav-link" to="/aboutme">
                             <Button color="primary" block><span className="fa fa-info fa-lg"></span> About Me</Button></NavLink>
-                        </div>
-                        <div className="col-sm-3 offset-sm-1">
-                            <NavLink className="nav-link" to="/contact"> 
-                            <Button color="primary" block><span className="fa fa-phone fa-lg"></span> Contact</Button></NavLink>
                         </div>
                     </div>
                 </div>
