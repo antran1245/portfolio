@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio.git/static/css/main.560d43af.chunk.css",
+    "main.js": "/portfolio.git/static/js/main.8efb2090.chunk.js",
+    "main.js.map": "/portfolio.git/static/js/main.8efb2090.chunk.js.map",
+    "runtime-main.js": "/portfolio.git/static/js/runtime-main.0b6af4b6.js",
+    "runtime-main.js.map": "/portfolio.git/static/js/runtime-main.0b6af4b6.js.map",
+    "static/css/2.dc14db5e.chunk.css": "/portfolio.git/static/css/2.dc14db5e.chunk.css",
+    "static/js/2.5adccefa.chunk.js": "/portfolio.git/static/js/2.5adccefa.chunk.js",
+    "static/js/2.5adccefa.chunk.js.map": "/portfolio.git/static/js/2.5adccefa.chunk.js.map",
+    "index.html": "/portfolio.git/index.html",
+    "precache-manifest.582812e104d9b95be927e391e0e2818f.js": "/portfolio.git/precache-manifest.582812e104d9b95be927e391e0e2818f.js",
+    "service-worker.js": "/portfolio.git/service-worker.js",
+    "static/css/2.dc14db5e.chunk.css.map": "/portfolio.git/static/css/2.dc14db5e.chunk.css.map",
+    "static/css/main.560d43af.chunk.css.map": "/portfolio.git/static/css/main.560d43af.chunk.css.map",
+    "static/js/2.5adccefa.chunk.js.LICENSE.txt": "/portfolio.git/static/js/2.5adccefa.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/portfolio.git/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/App.css": "/portfolio.git/static/media/home.42f7a831.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b6af4b6.js",
+    "static/css/2.dc14db5e.chunk.css",
+    "static/js/2.5adccefa.chunk.js",
+    "static/css/main.560d43af.chunk.css",
+    "static/js/main.8efb2090.chunk.js"
+  ]
+}
