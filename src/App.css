@@ -2,13 +2,8 @@
   text-align: center;
 }
 
-.button_Navbar {
-  opacity: .8;
-  position: relative;
-  z-index: 10;
-}
-
-.background_image {
+.home {
+  background-image: url(./image/home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,31 +14,15 @@
   position: relative;
 }
 
-.home {
-  background-image: url(./image/home.jpg);
-}
-
-.aboutme {
-  background-image: url(./image/aboutme.jpg);
-}
-
-.contact {
-  background-image: url(./image/contact.jpg);
-}
-
 .home_layout {
   color: rgb(255, 255, 255);
-  padding-top: 35vh;
+  padding-top: 30vh;
   padding-bottom: 5vh;
   filter: brightness(1.75);
 }
 
-.aboutme_layout, .contact_layout {
-  padding-top: 10vh;
-}
-
 @media (max-width: 575.98px) {
   .home_layout {
-    padding-top: 16vh;
+    padding-top: 13vh;
   }
 }

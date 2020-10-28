@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
-import NavbarHeader from './NavbarComponent';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import Home from './HomeComponent';
-import AboutMe from './AboutMeComponent';
-import Contact from './ContactComponent';
 
 class Main extends Component {
     render() {
@@ -11,7 +8,6 @@ class Main extends Component {
             <div>
                 <Switch>
                     <Route path='/home' component={() => <Home />} />
-                    <Route exact path='/aboutme' component={() => <AboutMe/>} />
                     <Redirect to='/home' />
                 </Switch>
             </div>
