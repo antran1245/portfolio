@@ -7,8 +7,8 @@ class Main extends Component {
         return(
             <div>
                 <Switch>
-                    <Route path='/portfolio' component={() => <Home />} />
-                    <Redirect to='/portfolio' />
+                    <Route path='/home' component={() => <Home />} />
+                    <Redirect to='/home' />
                 </Switch>
             </div>
         );
