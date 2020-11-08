@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Collapse, Card, CardText, CardHeader, CardBody, CardTitle, Button} from 'reactstrap';
+import {Collapse, Card, CardBody, Button} from 'reactstrap';
 import '../App.css';
 
 class Home extends Component {
@@ -24,36 +24,39 @@ class Home extends Component {
         return (
             <div>
                 <div className="home">
-                    <div className="container home_layout">
-                        <div className="row">
-                            <div className="col-12 col-sm-12 ml-sm-4">
+                    <div className="container-fluid home_layout">
+                        <div className="row justify-content-sm-end mt-5 mt-sm-0">
+                            <div className="col-12 col-sm-6 ml-sm-5">
                                 <h1 style={{fontSize:"80px", fontWeight:"bold"}}>Hello</h1>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-12 ml-sm-4">
-                                <h2 style={{fontSize:"60px"}}>I'm An Tran.</h2>
+                        <div className="row justify-content-sm-end">
+                            <div className="col-12 col-sm-6 ml-sm-5">
+                                <h3 style={{fontSize:"40px"}}>I'm An Tran.</h3>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-12 ml-sm-4">
-                                <h2 style={{fontSize:"60px"}}>Front End Web Designer</h2>
+                        <div className="row justify-content-sm-end">
+                            <div className="col-12 col-sm-6 ml-sm-5">
+                                <h3 style={{fontSize:"40px"}}>Front End Web Designer</h3>
                             </div>
                         </div>
-                        <div className="row mt-sm-5 mt-3">
-                            <div className="col-12 col-sm-12">
+                        <div className="row mt-sm-5 mt-3 justify-content-sm-end">
+                            <div className="col-12 col-sm-6 ml-sm-5">
                                 <p>Located in California.</p>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-12">
+                        <div className="row justify-content-sm-end">
+                            <div className="col-12 col-sm-6 ml-sm-5">
                                 <a href="https://www.linkedin.com/in/an-tran-90495b1b7/"><p><i className="fa fa-linkedin fa-lg"></i> An Tran</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container mt-3">
-                    <div className="row">
+                <div className="container-fluid mt-3">
+                    <div className="row ">
+                        <div className="col-12 col-sm-8 col-lg-3 offset-lg-3">
+                            <img src={require("../image/aboutme.jpg")} alt="aboutme.jpg" className="circle_border" width="100%"/>
+                        </div>
                         <div className="col-12 col-sm-4">
                             <Card className="h-100">
                                 <Button className="d-block d-sm-none" onClick={() => this.toggleCard("card1", !this.state.card1)}>
@@ -69,8 +72,12 @@ class Home extends Component {
                                 </Collapse>
                             </Card>
                         </div>
-
-                        <div className="col-12 col-sm-4">
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-12 col-sm-8 d-block d-sm-none">
+                            <img src={require("../image/tools.jpg")} alt="aboutme.jpg" className="circle_border" width="100%"/>
+                        </div>
+                        <div className="col-12 col-sm-4 offset-lg-3">
                             <Card className="h-100">
                                 <Button className="d-block d-sm-none" onClick={() => this.toggleCard("card2", !this.state.card2)}>
                                     <h4>Skills</h4>
@@ -90,7 +97,14 @@ class Home extends Component {
                                 </Collapse>
                             </Card>
                         </div>
-
+                        <div className="col-12 col-sm-8 col-lg-3 d-none d-sm-block">
+                            <img src={require("../image/tools.jpg")} alt="aboutme.jpg" className="circle_border" width="100%"/>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-12 col-sm-8 col-lg-3 offset-lg-3">
+                            <img src={require("../image/smile.jpg")} alt="aboutme.jpg" className="circle_border" width="100%"/>
+                        </div>
                         <div className="col-12 col-sm-4">
                             <Card className="h-100">
                                 <Button className="d-block d-sm-none" onClick={() => this.toggleCard("card3", !this.state.card3)}>

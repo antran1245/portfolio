@@ -3,7 +3,7 @@
 }
 
 .home {
-  background-image: url(./image/home.jpg);
+  background-image: url(./image/yellow_home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,14 +15,21 @@
 }
 
 .home_layout {
-  color: rgb(255, 255, 255);
+  color: black;
   padding-top: 30vh;
   padding-bottom: 5vh;
   filter: brightness(1.75);
 }
 
+.circle_border {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+
 @media (max-width: 575.98px) {
   .home_layout {
-    padding-top: 13vh;
+    padding-top: 20vh;
   }
 }
