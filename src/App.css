@@ -11,25 +11,25 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   min-height: 100vh;
-  position: relative;
 }
 
 .home_layout {
   color: black;
-  padding-top: 30vh;
+  padding-top: 10vh;
   padding-bottom: 5vh;
   filter: brightness(1.75);
 }
 
-.circle_border {
-  border: 2px solid white;
+.card_layout {
   border-radius: 10px;
+  box-shadow: 5px 10px;
 }
-
-
 
 @media (max-width: 575.98px) {
   .home_layout {
-    padding-top: 20vh;
+    padding-top: 10vh;
+  }
+  .card_layout {
+    margin-top: 5px;
   }
 }
