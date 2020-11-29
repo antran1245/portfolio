@@ -14,7 +14,7 @@
 }
 
 .home_layout {
-  color: rgb(46, 46, 46);
+  color: rgb(0, 0, 0);
   padding-top: 10vh;
   padding-bottom: 5vh;
   filter: brightness(1.75);
@@ -22,7 +22,7 @@
 
 .card_layout {
   border-radius: 10px;
-  box-shadow: 5px 10px;
+  box-shadow: 5px 10px rgb(61, 60, 60);
 }
 
 @media (max-width: 575.98px) {
