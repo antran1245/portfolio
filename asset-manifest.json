@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.40a4f87e.chunk.css",
-    "main.js": "/portfolio/static/js/main.93d79f0e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.93d79f0e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ae3d01b4.chunk.css",
+    "main.js": "/portfolio/static/js/main.f14fd705.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f14fd705.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.d1c70590.chunk.css": "/portfolio/static/css/2.d1c70590.chunk.css",
-    "static/js/2.4b28969c.chunk.js": "/portfolio/static/js/2.4b28969c.chunk.js",
-    "static/js/2.4b28969c.chunk.js.map": "/portfolio/static/js/2.4b28969c.chunk.js.map",
+    "static/js/2.5adccefa.chunk.js": "/portfolio/static/js/2.5adccefa.chunk.js",
+    "static/js/2.5adccefa.chunk.js.map": "/portfolio/static/js/2.5adccefa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6ee7f78c88182e810ef680c763b4d385.js": "/portfolio/precache-manifest.6ee7f78c88182e810ef680c763b4d385.js",
+    "precache-manifest.616e312e16b97415574f53a04bb3949a.js": "/portfolio/precache-manifest.616e312e16b97415574f53a04bb3949a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d1c70590.chunk.css.map": "/portfolio/static/css/2.d1c70590.chunk.css.map",
-    "static/css/main.40a4f87e.chunk.css.map": "/portfolio/static/css/main.40a4f87e.chunk.css.map",
-    "static/js/2.4b28969c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4b28969c.chunk.js.LICENSE.txt",
-    "static/media/aboutme.jpg": "/portfolio/static/media/aboutme.83b781c0.jpg",
+    "static/css/main.ae3d01b4.chunk.css.map": "/portfolio/static/css/main.ae3d01b4.chunk.css.map",
+    "static/js/2.5adccefa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5adccefa.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/smile.jpg": "/portfolio/static/media/smile.27d9ac1f.jpg",
-    "static/media/tools.jpg": "/portfolio/static/media/tools.e79e23bc.jpg",
     "static/media/App.css": "/portfolio/static/media/yellow_home.390a91b9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.d1c70590.chunk.css",
-    "static/js/2.4b28969c.chunk.js",
-    "static/css/main.40a4f87e.chunk.css",
-    "static/js/main.93d79f0e.chunk.js"
+    "static/js/2.5adccefa.chunk.js",
+    "static/css/main.ae3d01b4.chunk.css",
+    "static/js/main.f14fd705.chunk.js"
   ]
 }
