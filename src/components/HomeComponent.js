@@ -37,7 +37,7 @@ class Home extends Component {
                                                     <CardBody className="text-left">
                                                         <h1 className="d-none d-sm-block">About Me</h1>
                                                         <p>I am a graduated student of UC Santa Cruz and had acquired certifications for Front End Web Development. 
-                                                            I enjoy my time learning new coding tricks and improving my coding knowledge. Hobbies would include playing game and learning graphic design.
+                                                            My focus lay on creating responsive websites that are simple for the user experience. Hobbies would include gaining more programming knowledge, learning graphic design, and playing games.
                                                         </p>
                                                     </CardBody>
                                                 </Collapse>
@@ -78,7 +78,7 @@ class Home extends Component {
                                                         <li>Never give up</li>
                                                         <li>Quick learner</li>
                                                         <li>Enjoy coding</li>
-                                                        <li>Welcome feedbacks</li>
+                                                        <li>Welcome to feedbacks</li>
                                                     </ul>
                                                 </CardBody>
                                             </Collapse>

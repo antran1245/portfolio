@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home {
-  background: linear-gradient(-100deg, #5497ee 38%, rgba(0, 0, 0, 0) 38%), url(./image/aboutme.jpg);
+  background-color: gray;
+  background: linear-gradient(-100deg, #5497ee 38%, rgba(0, 0, 0, 0) 38%), url(./image/white_home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
