@@ -36,9 +36,10 @@ class Home extends Component {
         return (
             <div>
                 <div className="home">
+                    <div className="content">
                     <Container className="home_layout" fluid>
                         <Row>
-                            <Col xs={{span:12, order:12}} sm={{span:6, order:6}}>
+                            <Col xs={{span:12, order:12}} sm={{span:6, order:12}}>
                                 <Row className="row justify-content-center ml-sm-5 ml-xl-0 mt-5 mt-sm-0 ">
                                     <Col xs={12} sm={8} className="mt-sm-2">
                                         <Card className="card_layout">
@@ -48,7 +49,7 @@ class Home extends Component {
                                                 <Collapse isOpen={this.state.card1} className="d-sm-block">
                                                     <Card.Body className="text-left">
                                                         <h1 className="d-none d-sm-block">About Me</h1>
-                                                        <p>I am a graduated student of UC Santa Cruz and had acquired certifications for Front End Web Development. 
+                                                        <p>I am a graduate student of UC Santa Cruz and had acquired certifications for Front End Web Development. 
                                                             My focus lies in creating responsive websites that are user friendly. My future goals include gaining working experience in programming projects, advancing my skills in graphic design, and excelling in collaborating on large scale projects.
                                                         </p>
                                                     </Card.Body>
@@ -87,10 +88,10 @@ class Home extends Component {
                                                     <ul>
                                                         <li>Positive</li>
                                                         <li>Multitasker</li>
-                                                        <li>Never give up</li>
+                                                        <li>Committed</li>
                                                         <li>Quick learner</li>
                                                         <li>Enjoy coding</li>
-                                                        <li>Welcome to feedbacks</li>
+                                                        <li>Welcome to feedback</li>
                                                     </ul>
                                                 </Card.Body>
                                             </Collapse>
@@ -98,7 +99,7 @@ class Home extends Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs={{span:12, order: 1}} sm={{span:6, order:12}} className="align-self-sm-center">
+                            <Col xs={{span:12, order: 1}} sm={{span:6, order:1}} className="align-self-sm-center">
                                 <Row className="justify-content-sm-center mt-5 mt-sm-0">
                                     <Col xs={12} sm={6} className="ml-sm-5">
                                         <h1 style={{fontSize:"80px", fontWeight:"bold"}}>Hello</h1>
@@ -139,6 +140,7 @@ class Home extends Component {
                         </Row>
                         <Projects show={this.state.modal} onHide={this.showModal} />
                     </Container>
+                    </div>
                 </div>
             </div>
         );

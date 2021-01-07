@@ -6,7 +6,7 @@
 
 .home {
   background-color: gray;
-  background: linear-gradient(-100deg, #5497ee 38%, rgba(0, 0, 0, 0) 38%), url(./image/white_home.jpg);
+  background: linear-gradient(-100deg, #5497ee 45%, rgba(0, 0, 0, 0) 45%), url(./image/white_home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,6 +14,13 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   min-height: 100vh;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.content {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .home_layout {
