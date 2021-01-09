@@ -49,7 +49,7 @@ class Home extends Component {
                                                 <Collapse isOpen={this.state.card1} className="d-sm-block">
                                                     <Card.Body className="text-left">
                                                         <h1 className="d-none d-sm-block">About Me</h1>
-                                                        <p>I am a graduate student of UC Santa Cruz and had acquired certifications for Front End Web Development. 
+                                                        <p>I am a recent graduate student of UC Santa Cruz with a bachelor's in Computer Science and had acquired certifications for Front End Web Development. 
                                                             My focus lies in creating responsive websites that are user friendly. My future goals include gaining working experience in programming projects, advancing my skills in graphic design, and excelling in collaborating on large scale projects.
                                                         </p>
                                                     </Card.Body>
@@ -64,7 +64,7 @@ class Home extends Component {
                                             <Collapse isOpen={this.state.card2} className="d-sm-block">
                                                 <Card.Body className="text-left">
                                                     <h1 className="d-none d-sm-block">Skills</h1>
-                                                    <h6>(Languages, Libraries, Famework)</h6>
+                                                    <h6>(Languages, Libraries, Framework)</h6>
                                                     <ul>
                                                         <li>HTML</li>
                                                         <li>Javascript</li>
@@ -121,7 +121,7 @@ class Home extends Component {
                                     </Col>
                                 </Row>
                                 <Row className="justify-content-sm-center">
-                                    <Col xs={12} sm={3} xl={2} className="ml-sm-5">
+                                    <Col xs={12} sm={3} xl={3} className="ml-sm-5">
                                         <Button onClick={this.showModal}>Sample Projects</Button>
                                     </Col>
                                 </Row>
