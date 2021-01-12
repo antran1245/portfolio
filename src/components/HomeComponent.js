@@ -133,7 +133,7 @@ class Home extends Component {
                                 </Row>
                                 <Row className="justify-content-sm-center">
                                     <Col xs={12} sm={3} xl={2} className="ml-sm-5 mt-2">
-                                        <a href={require("../Resume-An-Tran.pdf")} download><FontAwesomeIcon icon={faFilePdf} size="lg"/> Resume</a>
+                                        <a href={require("../An Tran.pdf")} download><FontAwesomeIcon icon={faFilePdf} size="lg"/> Resume</a>
                                     </Col>
                                 </Row>
                             </Col>
